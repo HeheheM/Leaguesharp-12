@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -91,7 +91,7 @@ namespace SSJ4_Heimerdinger
 
             Config.AddToMainMenu();
 
-            Game.OnGameUpdate += OnGameUpdate;
+            Game.OnUpdate += OnGameUpdate;
             //Drawing.OnDraw += OnDraw;
 
             Game.PrintChat("Welcome to SSJ4 Heimerdinger 2.0");
